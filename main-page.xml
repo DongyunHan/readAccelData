@@ -1,0 +1,23 @@
+<Page loaded="loaded" unloaded="unloaded">
+    <Page.actionBar>
+        <ActionBar title="TILT VALUES" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+
+    <StackLayout>
+        <StackLayout orientation="horizontal" horizontalAlignment="center">
+            <Label text="x : " class="h2 text-center" textWrap="true"/>
+            <Label text=" {{ xData }}" class="h2 text-center" textWrap="true"/>
+        </StackLayout>
+
+        <StackLayout orientation="horizontal"  horizontalAlignment="center">
+            <Label text="y : " class="h2 text-center" textWrap="true"/>
+            <Label text=" {{ yData }}" class="h2 text-center" textWrap="true"/>
+        </StackLayout>
+
+        <StackLayout orientation="horizontal"  horizontalAlignment="center">
+            <Label text="z : " class="h2 text-center" textWrap="true"/>
+            <Label text=" {{ zData }}" class="h2 text-center" textWrap="true"/>
+        </StackLayout>
+    </StackLayout>
+</Page>
